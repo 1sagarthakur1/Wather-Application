@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo"><img  id="Imglogo" src="https://www.clipartmax.com/png/full/24-248252_28-collection-of-weather-clipart-png-transparent-background-weather-clipart.png" alt=""></div>
+        <form action="" id="form">
+            <input id="Gname" type="text" placeholder="Search City">
+            <input id="submit" type="submit" value="Search">
+        </form>
+    </nav>
+    <div id="bigcontainer">
+          <div id="name_tep">
+              <div id="FName_Tem">
+                  <div id="name_county">
+                      <h1 id="naam"></h1>
+                      <div id="county_Sta_con">
+                          <p id="country"></p>
+                          <p id="Sta"></p>
+                          <p id="Con"></p>
+                      </div>
+                  </div>
+                  <div id="Time_val">
+                     <h3 id="Time">Time</h3>
+                     <p id="Timval"></p>
+                  </div>
+                  <div id="Temprc_val_C">
+                      <p class="Temp">Temperature </p>
+                      <div id="celsius">
+                          <p id="Tem_C" class="Temvalu"> </p><sup>0</sup>
+                          <h1 style="margin-top: 60px;">C</h1>
+                      </div>
+                  </div>
+                  <div id="Temprc_val_F">
+                    <p class="Temp">Temperature fahrenheit</p>
+                    <div style="display:flex; align-items: baseline;">
+                        <p id="Tem_F" class="Temvalu"></p>
+                        <p>F</p>
+                    </div>
+
+                  </div>
+              </div>
+              <div id="FWind">
+                   <h1 id="wind_hed">Wind</h1>
+                   <div id="wind_valu">
+                    <p class="wind">wind direction</p>
+                    <p id="wind_va" class="windvalu"></p>
+                   </div>
+                   <div id="wind_speed">
+                    <p class="wind">Speed</p>
+                    <div style="display:flex;">
+                        <p id="wind_spe" class="windvalu"></p>
+                        <p> Km/h</p>
+                    </div>
+                   </div>
+              </div>
+          </div>
+        <div id="img_map_ECT">         
+          <div id="img_map">
+               <div id="Img_clou_humid">
+                    <div id="img">
+                    </div>
+                    <h2 id="cloud"></h2>
+                    <div id="humid_valu">
+                        <p id="hud">Humidity :</p>
+                        <p id="hud_valu"></p>
+                    </div>
+                    <div id="feel_Tem">
+                        <p id="feel">Feeling Temp :</p>
+                        <p id="F_tem"></p>
+                    </div>
+               </div>
+               <div id="for_map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                        <iframe
+                                width="300"
+                                height="287" 
+                                id="gmap_canvas"
+                                frameborder="0" 
+                                scrolling="no" 
+                                marginheight="0" 
+                                marginwidth="0">
+                        </iframe>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div id="fomECt">
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
+
